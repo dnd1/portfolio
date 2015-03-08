@@ -1,5 +1,6 @@
 body {
-
+  background: url('../img/fondo-cambiado.png') no-repeat;
+  background-size: cover;
 }
 
 .marketing {
@@ -7,12 +8,12 @@ body {
 }
 
 .intro {
-  background-image: url('../img/colorful-triangles-background.jpg');
+  /*background-image: url('../img/colorful-triangles-background.jpg');*/
 }
 
 .info {
-  background: url('../img/trianglify-background.svg') no-repeat;
-  background-size: cover;
+  /*background: url('../img/bokeh_background_by_xxclydee-d6fvd9n.png') no-repeat;*/
+  /*background-size: cover;*/
 }
 
 .row-1 {
@@ -21,7 +22,13 @@ body {
   color: dimgray;
 }
 
-.row-0 h1 {
+.row-0 h1{
+  color: white;
+}
+
+.row-0 .title {
+  font-size: 5em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -41,3 +48,32 @@ body {
   min-height: 120px;
 }
 
+
+footer {
+  color: white;
+
+}
+
+.margin-top-xs {
+  margin-top: 10px;
+}
+
+.margin-top-sm {
+  margin-top: 15px;
+}
+
+.margin-top-md {
+  margin-top: 20px;
+}
+
+.margin-top-lg {
+  margin-top: 25px;
+}
+
+.margin-top-xl {
+  margin-top: 30px;
+}
+
+hr {
+  height: 3px;
+}
