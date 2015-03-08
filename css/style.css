@@ -1,0 +1,43 @@
+body {
+
+}
+
+.marketing {
+
+}
+
+.intro {
+  background-image: url('../img/colorful-triangles-background.jpg');
+}
+
+.info {
+  background: url('../img/trianglify-background.svg') no-repeat;
+  background-size: cover;
+}
+
+.row-1 {
+  margin-top: 30px;
+  padding-top: 15px;
+  color: dimgray;
+}
+
+.row-0 h1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.row-0 h3 {
+  color: rgba(255, 255, 255, 1);;
+}
+
+
+.row-1 h2 {
+  color: rgba(230, 230, 230, 1);;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 120px;
+}
+
