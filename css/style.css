@@ -83,3 +83,7 @@ footer {
 hr {
   height: 3px;
 }
+
+.inline {
+    display: inline;
+}
